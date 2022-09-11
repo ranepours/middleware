@@ -50,3 +50,5 @@ router.delete("/:name", (req,res) => {
         next(err)
     }
 })
+
+module.exports = router;
